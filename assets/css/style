@@ -4,7 +4,7 @@
 }
   
 body{
-    font-family: Roboto;
+    font-family: lato;
     font-weight: 300;
     font-size: .9rem;
     line-height: 1.5;
@@ -27,6 +27,7 @@ h1{
     margin: 0 0 1rem;
     font-size: 2.5rem;
     margin-bottom: .5rem;
+    
 }   
    
 h2{
@@ -70,6 +71,7 @@ h2{
     padding: 50px;
     background-color: #782221;
     color: black;
+    
 }
   
 .portait{
@@ -78,8 +80,10 @@ h2{
     margin: auto;
     display: block;
     margin-bottom: 50px;
-}
-  
+    box-shadow: rgba(10, 0, 0, 0.993) 0px 8px 24px, rgb(14, 1, 1) 0px 16px 56px, rgba(1, 1, 16, 0.993) 0px 24px 80px;
+    cursor:zoom-in;
+}    
+
 .skills{
     list-style-type: none;
     padding: 0;
@@ -121,14 +125,21 @@ h2{
     list-style-type: circle;
 }
 
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+
 footer{
     width: 100%;
     height: 100%;
     background-color: #782221;
     color: white;
     text-align: center;
-    padding: 5%;
-    margin: 1 1 1rem;
-    font-size: 2.5rem;
-    margin-bottom: .5rem; 
+    padding: 5%; 
 }
