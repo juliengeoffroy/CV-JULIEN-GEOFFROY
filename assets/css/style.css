@@ -1,0 +1,222 @@
+@font-face {
+    font-family: "raleway";
+    src: url("../fonts/Raleway-Bold.woff");
+    src: url("../fonts/Raleway-Bold.ttf") format("truetype");
+    src: url("../fonts/Raleway-Italic.woff");
+    src: url("../fonts/Raleway-Italic.ttf") format("truetype");
+    src: url("../fonts/Raleway-Light.woff");
+    src: url("../fonts/Raleway-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "lato";
+    src: url("../fonts/lato/Lato-Bold.woff");
+    src: url("../fonts/lato/Lato-Bold.ttf") format("truetype");
+    src: url("../fonts/lato/Lato-Italic.woff");
+    src: url("../fonts/lato/Lato-Italic.ttf") format("truetype");
+    src: url("../fonts/lato/Lato-Light.woff");
+    src: url("../fonts/lato/Lato-Light.ttf") format("truetype");
+}
+
+section{
+    position:relative;
+    right: 327px;
+    top: -1380px;
+    width: 280px;
+}
+
+#flex-col{
+    display: flex;
+}
+
+strong:hover {
+    border-right:6px solid #2c1d27;
+}
+
+h2{
+    font-family: "lato";
+    display: flex;
+    flex-direction: column-reverse; 
+    background: wheat;
+    width: 300px;
+    font-size: 1.5em;
+    border-left: 27px solid wheat;
+}
+h2:hover{ 
+    border-right: 6px solid #6d071a;
+}
+
+h3{
+font-family: "lato";
+display: flex;
+flex-direction: column-reverse;
+background: wheat;
+width: 529px;
+border-left: 6px solid brown
+}
+
+h3:hover{
+border-right: 6px solid #6d071a;
+}
+
+.propos{
+    font-family: "lato";
+    display: flex;
+    flex-direction: column-reverse;
+    background: wheat;
+    width: 300px;
+    font-size: 1.5em;
+    border-left: 27px solid wheat;
+    justify-content: space-between;
+
+}
+.lang{
+    font-family: "lato";
+    display: flex;
+    flex-direction: column-reverse;
+    background: wheat;
+    width: 300px;
+    font-size: 1.5em;
+    border-left: 27px solid wheat;
+}
+.centres{
+    font-family: "lato";
+    display: flex;
+    flex-direction: column-reverse;
+    background: wheat;
+    width: 300px;
+    font-size: 1.5em;
+    border-left: 27px solid wheat;
+}
+    
+.compétence:hover {
+    border-right: 6px solid #2c1d27;
+}
+
+strong{
+    font-family: "lato";
+}
+
+li{
+    font-family: "raleway",serif;
+    color: white;
+}
+
+p{
+    font-family: "raleway",serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #782221;  
+    border-left: 352px solid white;
+    border-right: 435px solid white;
+    flex-wrap: nowrap;
+    margin-block: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+    }
+
+header img{
+    border-radius: 50%;
+    box-shadow: rgba(10, 0, 0, 0.993) 0px 8px 24px, rgb(14, 1, 1) 0px 16px 56px, rgba(1, 1, 16, 0.993) 0px 24px 80px;
+    width: 200px; 
+    margin-top: 30px;
+
+}
+
+header img:hover{
+    cursor: zoom-in;
+}
+
+address{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 1133px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: white;
+    border-left: 94px solid white;
+    border-right: solid;
+}
+
+aside{
+    max-width: 337px;
+    border-right: 70px solid #782221;
+}
+
+.align{
+    margin-left: -15px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+
+.social img{
+    width: 50px;
+    height: 50px;
+}
+
+span{
+    display: flex;
+    justify-content: space-around;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+style{
+    max-width: 50px;
+}
+
+span:hover{
+    opacity: 65%;
+}
+
+small{
+    display: flex;
+    align-items: flex-end;
+}
